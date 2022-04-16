@@ -1,0 +1,164 @@
+body {
+  font-family: Roboto;
+  min-height: 100vh;
+  margin: 0;
+}
+.header_content,
+.avengers_team {
+  margin-bottom: 8%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#header-container,
+#team,
+#testimonial,
+#action {
+  padding: 12px 15%;
+  display: flex;
+}
+
+#header-container {
+  flex-direction: column;
+  /* background-color: #1f2937; */
+  background-color: #020202;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 8%;
+}
+
+.left {
+  display: flex;
+  flex: auto;
+  font-size: 24px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.right {
+  display: flex;
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.content_action {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+  gap: 20px;
+}
+
+.spidey {
+  flex: 0;
+  width: 12%;
+  height: auto;
+  border-radius: 80%;
+}
+
+.lego {
+  object-fit: cover;
+  width: 550px;
+  height: 240px;
+}
+
+.content_action .hero {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.content_action .hero_second {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.content_action button {
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #c61511;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  align-self: flex-start;
+  padding: 8px 30px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+  list-style-type: none;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+a:hover {
+  font-weight: 900;
+  text-decoration: wavy;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #c61511;
+}
+
+/* TEAM*/
+#team {
+  flex-direction: column;
+  align-items: center;
+  background-color: #ededed;
+}
+
+.team_name {
+  font-size: 36px;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 3%;
+}
+
+.avengers_team {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  width: 250px;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  border-radius: 5%;
+  margin-top: 5%;
+  flex: 1 1 0%;
+  gap: 8px;
+}
+
+.card_pic {
+  flex: 1;
+  border-radius: 5%;
+}
+.text {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+
+/* IDS */
+#header-container,
+#team,
+#testimonial,
+#action {
+  flex: 1;
+}
